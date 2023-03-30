@@ -1,11 +1,14 @@
 //import logo from './logo.svg';
 import './App.css';
 import NavBarComponent from './components/NavBarComponent';
+import ItemListConteiner from './components/ItemListConteiner';
 
 function App() {
   return (
-    <NavBarComponent />
-       
+    <div>
+      <NavBarComponent/>
+      <ItemListConteiner greeting={'Bienvenidos'}/>
+    </div>       
   );
 }
 
