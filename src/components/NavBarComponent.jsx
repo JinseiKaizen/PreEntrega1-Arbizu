@@ -1,5 +1,6 @@
 import React from "react";
 import ListOptionNavBarComponent from "./ListOptionNavBarComponent";
+import CartWidget from "./CartWidget";
 
 const NavBarComponent = (props) => {
   const nameOptions = ["Productos 3D disponibles", "Productos 3D Personalizados", "Desarrollo WEB"];
@@ -16,6 +17,7 @@ const NavBarComponent = (props) => {
           <ListOptionNavBarComponent nameOption={nameOptions}/>
         </div>
       </div>
+      <CartWidget />
     </nav >)
 
 };
